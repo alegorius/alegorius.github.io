@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+body, .btn-primary {
+    background: linear-gradient(90deg, #1631ED 0%, #1C0404 100%);
+    font-family: 'Michroma', sans-serif;
+}
+
+p {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(137, 141, 141);
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color:  rgb(137, 141, 141);
+}
+.navbar-toggler:hover {
+    background-color:  white;
+}
+
+
+
+.sidebar {
+    background: linear-gradient(270deg, #749860 0%, #7183d3 100%);
+    color: white;
+    display: block;
+}
+
+.sidebar h3 {
+    font-size: 16px;
+    color: rgb(29, 33, 33);
+    margin-bottom: 15px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: rgb(6, 245, 165);
+    display: block;
+}
+
+.sidebar a:hover {
+    color: rgb(137, 141, 141);
+}
+
+.card {
+    background: linear-gradient(270deg, #a5aee4 0%, #df7171 100%); 
+}
+
+.card a {
+    text-decoration: none;
+    color: white; 
+}
+
+.card a:hover {
+    color: blue;
+}
+
+.card-title a {
+    color: rgb(6, 245, 165);
+}
+
+.card-title a:hover {
+    color: blue;
+}
+
+.card-body .btn:hover {
+    color:  rgb(6, 245, 165);
+}
+
+.slide-text {
+    text-align: start;
+    margin: auto auto;
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+footer a {
+   text-decoration: none;
+}
+
+footer a>p:hover {
+    color: rgb(137, 141, 141);
+} 
+
+footer .footer-text { 
+    font-size: 13px; 
+    display: block;
+    text-align: center;
+    margin: auto auto;
+    padding-top: 10px;
+}
+
+.icon-footer1 {
+    width:  40px;
+    height: 30px;
+}
+
+.icon-footer2, .img-phone {
+    width:  40px;
+    height: 40px;
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.sidebar1 {
+    font-size: 12px;
+    padding: 5px;
+    height: 1650px;
+    border-radius:5px;
+}
+
+.img-phone {
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 100%;
+	}
+
+	10% {
+		transform: rotate(2deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-4deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(4deg);
+	}
+
+	80% {
+		transform: rotate(-2deg);
+	}
+
+	90% {
+		transform: rotate(2deg);
+	}
+}
+
+.bgvideo {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.bgvideo video {
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+
+.video-text {
+    color: white;
+    z-index: 2;
+}
